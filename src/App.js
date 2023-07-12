@@ -10,12 +10,10 @@ function App() {
 
   const manejarClic = () => {
     setNumClics(numClics +1);
-
   }
 
   const reiniciarContador = () => {
-    console.log("reiniciar");
-
+    setNumClics(0);
   }
 
   return (
