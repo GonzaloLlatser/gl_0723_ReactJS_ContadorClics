@@ -1,7 +1,11 @@
 import React from "react";
 
 function Contador({ numClics }) {
-    <div className="contador">
-        {numClics}
-    </div>
+    return (
+        <div className="contador">
+            {numClics}
+        </div>
+    );
 }
+
+export default Contador;
