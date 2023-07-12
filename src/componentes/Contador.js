@@ -7,6 +7,6 @@ function Contador({ numClics }) {
             {numClics}
         </div>
     );
-}
+};
 
 export default Contador;
